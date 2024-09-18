@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.183);
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    position: sticky;
+}
+header .box-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+span{
+    font-size: 20px;
+    color: white;
+}
+header ul li{
+    margin: 0 24px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+header a:hover{
+    color: black;
+}
+.number-phone{
+    width: 20%;
+}
+.container_01{
+    position: relative;
+    width: 100%;
+    height: 62vh;
+    background-image: url(/img/about.jpg);
+    background-repeat: no-repeat;
+}
+.container_01 .text{
+    width: 100%;
+}
+.container_01 .search_data{
+    width: 90%;
+    height: 300px;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #ffffff56;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_data .trip{
+    width: 90%;
+    margin: auto;
+    background-color: #ffffffb7;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.trip input{
+    text-transform: capitalize;
+    padding: 15px;
+    margin-left: 20px;
+}
+.trip input button{
+    text-transform: capitalize;
+    padding: 15px;
+}
+.trip button{
+    background-color: black;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.search_data .trip_on{
+    position: absolute;
+    margin-bottom: 180px;
+    background-color: #ffffffb7;
+    padding: 15px 25px;
+    border-radius: 8px 8px 0 0 ;
+}
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.on img{
+    width: 212vh;
+}
+.search_data .on{
+    position: absolute;
+    margin-top: 40%;
+}
+.PLACES{
+    margin-top: 90px;
+}
+.container_03{
+    margin-top: 50px;
+}
+.container_03 .bali{
+    width: 65%;
+    margin: auto;
+    /* background-color: bisque; */
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.bali .box_01{
+    width: 65%;
+    padding: 8px;
+    height: 100%;
+    /* background-color: rgb(159, 97, 16); */
+}
+.bali .img_01{
+    width: 100%;
+    height: 100%;
+}
+.img_01 img{
+    width: 100%;
+    height: 100%;
+}
+.text font p{
+    color: gray;
+}
+.text input button{
+    text-transform: capitalize;
+    padding: 15px;
+}
+.text button{
+    background-color: black;
+    color: #ffff;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 10px 25px 10px 25px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.container_04{
+    margin-top: 80px;
+}
+.container_04 .about{
+    width: 60%;
+    margin: auto;
+    /* background-color: bisque; */
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    margin-left: 85px;
+    width: 40%;
+    height: 100%;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+}
+.about .Top{
+    margin-top: 8px;
+}
+.container_05{
+    margin-top: 70px;
+}
+.team{
+    width: 100%;
+    height: 88vh;
+    /* background-color: aqua; */
+    background-image: url(/img/why.jpg);
+    background-repeat: no-repeat;
+}
+.PLACES1{
+    color: #ffff;
+    padding: 90px;
+}
+.fast{
+    width: 65%;
+    margin: auto;
+    height: 55%;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+.fast .in{
+    width: 380px;
+    height: 100%;
+    padding: 20px;
+    /* background-color: rgb(255, 255, 255); */
+    position: relative;
+}
+.in .box1{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin:auto;
+    position: absolute;
+    margin-top: -50PX;
+    margin-left: 120px;
+    background-color: rgb(246, 248, 249);
+}
+.box1 img{
+    width: 60%;
+    height: 60%;
+    margin: 15px 17px;
+}
+.in .box2{
+    width: 100%;
+    height: 427px;
+    /* background-color: rgb(244, 171, 74); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box3{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(251, 253, 253);
+    padding: 10px;
+    border-radius:20px 20px 0px 0px;
+}
+.box3 img{
+    border-radius: 10px 10px 0px 0px;
+}
+.box4{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+    padding: 20px;
+    border-radius:0px 0px 20px 20px;
+}
+.box3 h1{
+    margin-top: 50px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.PLACES2{
+    color: #030202;
+    padding: 90px;
+}
+.container_06{
+    margin-top: 15px;
+}
+.container_06 .meet_team{
+    width: 70%;
+    margin: auto;
+    /* background-color: bisque; */
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.team1{
+    width: 600px;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.team2{
+    width: 80%;
+    height: 255px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgb(10, 12, 12);
+}
+.team2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.meet_team .Top1{
+    margin-top: 8px;
+}
+footer{
+    width: 100%;
+    height: 80vh;
+    margin-top: 50px;
+    /* background-color: aqua; */
+    background-image: url(/img/footer_1.jpg);
+    background-repeat: no-repeat;
+}
+footer .foot{
+    /* background-color: antiquewhite; */
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    color: #ffff;
+}
+.foot .btn{
+    width: 100%;
+}
+.btn input,button{
+    height: 60px;
+    background-color:#ffffff69;
+    color: #ffff;
+    padding: 10px;
+}
+.btn input[type="text"]{
+    width: 30%;
+    border-radius: 10px;
+}
+.btn input[type="email"]{
+    width: 45%;
+    border-radius: 10px;
+}
+.btn button{
+    width: 18%;
+    border-radius: 15px;
+}
+.btn ::placeholder{
+    font-size: 15px;
+    color: #ffff;
+}
+.foot .give{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    /* background-color: crimson ; */
+    display: flex;
+}
+.give .box_svg{
+    width: 33.33%;
+    height: 100%;
+}
+.box_svg img{
+    width: 68px;
+    height: 68px;
+}
